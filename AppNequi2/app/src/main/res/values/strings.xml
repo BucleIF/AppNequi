@@ -1,0 +1,22 @@
+<resources>
+    <string name="app_name">Nequi</string>
+    <string name="btnEntrar">Entrar</string>
+    <string name="btnEntrar2">Entrar</string>
+    <string name="txtClave">Escribe tu clave</string>
+    <string name="txtMensaje">No dudamos que seas tú... Pero es mejor confirmar ;)</string>
+    <string name="txtDisponible">Disponible</string>
+    <string name="txtUser">Hola, Usuario</string>
+    <string name="btn_meter">Meter plata</string>
+    <string name="txtSaldo">$ 0</string>
+    <string name="txtRecarga">Cuanto desea recargar?</string>
+    <string name="txtEnvia">Envía plata</string>
+    <string name="btnEnviar">Sigue</string>
+    <string name="btnBancolombia">Retirar en cajero Bancolombia</string>
+    <string name="txtVentana">Selecciona una opción de retiro</string>
+    <string name="etCuantoRetirar">  ¿Cuánto?</string>
+    <string name="txtMensajeRetiro">No olvides este codigo... Lo necesitarás para validar el retiro ;)</string>
+    <string name="btnRetiro">Siguiente</string>
+    <string name="txtMensajeCajero">Por favor digita el codigo que te generó nequi :)</string>
+    <string name="btnCajero">Confirmar</string>
+    <string name="pagar">Pagar</string>
+</resources>

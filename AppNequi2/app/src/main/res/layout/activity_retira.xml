@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/back"
+    tools:context=".RetiraActivity" >
+
+    <TextView
+        android:id="@+id/txtMensajeRetiro"
+        android:layout_width="311dp"
+        android:layout_height="44dp"
+        android:layout_marginEnd="56dp"
+        android:text="@string/txtMensajeRetiro"
+        android:textAlignment="center"
+        android:textColor="@color/white"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.285" />
+
+    <EditText
+        android:id="@+id/rombo8"
+        android:layout_width="52dp"
+        android:layout_height="65dp"
+        android:background="@drawable/rombo"
+        android:ems="10"
+        android:focusable="false"
+        android:inputType="number"
+        android:maxLength="1"
+        android:textAlignment="center"
+        android:textColor="@color/black"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.749"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.16" />
+
+    <EditText
+        android:id="@+id/rombo7"
+        android:layout_width="52dp"
+        android:layout_height="65dp"
+        android:background="@drawable/rombo"
+        android:ems="10"
+        android:focusable="false"
+        android:inputType="number"
+        android:maxLength="1"
+        android:textAlignment="center"
+        android:textColor="@color/black"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.576"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.16" />
+
+    <EditText
+        android:id="@+id/rombo6"
+        android:layout_width="52dp"
+        android:layout_height="65dp"
+        android:background="@drawable/rombo"
+        android:ems="10"
+        android:focusable="false"
+        android:inputType="number"
+        android:maxLength="1"
+        android:textAlignment="center"
+        android:textColor="@color/black"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.412"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.16" />
+
+    <EditText
+        android:id="@+id/rombo5"
+        android:layout_width="52dp"
+        android:layout_height="65dp"
+        android:background="@drawable/rombo"
+        android:ems="10"
+        android:focusable="false"
+        android:inputType="none"
+        android:maxLength="1"
+        android:textAlignment="center"
+        android:textColor="@color/black"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.233"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.16" />
+
+    <Button
+        android:id="@+id/btnRetiro"
+        android:layout_width="340dp"
+        android:layout_height="45dp"
+        android:backgroundTint="#E91E63"
+        android:text="@string/btnRetiro"
+        android:textColor="@color/white"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.492"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.919" />
+</androidx.constraintlayout.widget.ConstraintLayout>
